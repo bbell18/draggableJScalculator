@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* Display area */
+
+#display-flexbox {
+	display: flex;
+}
+
+.display-item {
+	display:flex;
+}
+
+#saved-area {
+	width: 20%;
+	float: left;
+	overflow: auto;
+}
+
+#main-area {
+	width: 80%;
+	float:right;
+	overflow: hidden;
+}
+
+#error-area {
+	width: 100%;
+}
+
+/* Operation pad */
+
+.oppad-top {
+	display: flex;
+	width: 100%;
+}
+
+.oppad-button {
+	
+}
+
+/* Number pad */
+
+.numberpad-container {
+	margin-left: 25px;
+}
+

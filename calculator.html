@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div id="error-display">
+	
+</div>
+<div id="main-area">
+<div id="display-flexbox">
+<code id="main-display" class="display-item">
+	
+</code>
+<code id="calc-area" class="display-item">
+	
+</code>
+<code id="memory-count" class="display-item">
+	
+</code>
+	</div>
+<div class="oppad-top">
+	<button class="oppad-button" id="paren-start">(</button>
+	<button class="oppad-button" id="add">+</button>
+	<button class="oppad-button" id="sub">-</button>
+	<button class="oppad-button" id="multiply">*</button>
+	<button class="oppad-button" id="divide">/</button>
+	<button class="oppad-button" id="paren-end">)</button>
+</div>
+<div class="numberpad-container">
+<div class="numberpad-row">
+	<button id="no1" class="numberpad-button">1</button>
+	<button id="no2" class="numberpad-button">2</button>
+	<button class="numberpad-button" id="no3">3</button>
+</div>
+<div class="numberpad-row">
+	<button class="numberpad-button" id="no4">4</button>
+	<button class="numberpad-button" id="no5">5</button>
+	<button class="numberpad-button" id="no6">6</button>
+</div>
+<div class="numberpad-row">
+	<button class="numberpad-button" id="no7">7</button>
+	<button class="numberpad-button" id="no8">8</button>
+	<button class="numberpad-button" id="no9">9</button>
+</div>
+<div class="numberpad-row">
+	<button class="numberpad-button" id="decimal-point">.</button>
+	<button class="numberpad-button" id="noZero">0</button>
+	<button class="numberpad-button" id="submit-equals">=</button>
+</div>
+	</div>
+	<div class="command-row">
+	 <button class="command-button" id="repeat-button">Repeat last calculation</button>
+	 <button class="command-button" id="clear-button">Clear</button>
+		 </div>
+	</div>
+	<div id="saved-area">
+	</div>
+<script src="calculate.js" type="application/javascript"></script>
+</body>
+</html>
